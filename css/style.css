@@ -1,0 +1,43 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	margin:40px;
+}
+table {
+border-collapse: collapse;	width:300px;
+}
+td {
+	border: 5px solid #000;
+	border-bottom:0;
+	padding:5px;
+	height: 30px;
+}
+td:first-child{
+	border-left:0;
+}
+td:last-child{
+	border-right:0;
+}
+.first td{
+	border-top:0;
+}
+.white{
+	background-color: white;
+}
+.yellow{
+	background-color: #fff472;
+}
+.red{
+	background-color: #ff5e41;
+}
+.black{
+	background-color: #172722;
+}
+.blue{
+	background-color: #0000ff;
+}
+tr>td.black{
+	border-left: 5px solid #000;
+}
